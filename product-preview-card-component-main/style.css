@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 0;
+}
+:root {
+  - Dark cyan: hsl(158, 36%, 37%)
+  - Cream: hsl(30, 38%, 92%)
+  - Very dark blue: hsl(212, 21%, 14%)
+  - Dark grayish blue: hsl(228, 12%, 48%)
+  - White: hsl(0, 0%, 100%)
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0 hsl(228, 12%, 48%);
+  width: 510px;
+  height: 375px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 170px;
+}
+.container-thumbnail {
+  margin-right: 28px;
+}
+.container-card {
+  width: 160px;
+  height: 350px;
+}
+.container-product-name {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.container-product-price {
+  margin-top: 30px;
+}
+.product-picture {
+  width: 250px;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+}
+.product-name {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 500;
+  color: gray
+}
+.product-title {
+  font-family: Fraunces;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 18px;
+}
+.product-info {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  color: gray;
+  line-height: 20px;
+}
+.container-product-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.product-discount-price {
+  font-family: Fraunces;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 23px;
+  color: hsl(158, 36%, 37%)
+}
+.product-before-price {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  color: gray;
+  text-decoration: line-through;
+  margin-right: 10px;
+}
+.container-button {
+  width: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-to-cart-button {
+  background-color: hsl(159, 34%, 35%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 50px;
+  cursor: pointer;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 80px;
+}
+.buy-cart {
+  width: 13px;
+  height: 13px;
+  object-fit: cover;
+  margin-right: 7px;
+}
+
