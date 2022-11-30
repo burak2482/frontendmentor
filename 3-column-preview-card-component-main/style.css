@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5625rem;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  width: 53.75rem;
+  height: 29.375rem;
+  background-color: gray;
+  border-radius: 15.625rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 40px;
+}
+.card-one {
+  height: 29.375rem;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 0.625rem 0rem 0rem 0.625rem;
+}
+.card-two {
+  height: 470px;
+  background-color: hsl(184, 100%, 22%);
+}
+.card-three {
+  height: 470px;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0rem 0.625rem 0.625rem 0rem;
+}
+.thumbnail {
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+}
+.sedan-picture,
+.suv-picture,
+.luxury-picture {
+  width: 3.125rem;
+  heigth: 3.125rem;
+  object-fit: cover;
+}
+.card-content {
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  width: 13.75rem;
+}
+h3 {
+  color: white;
+  font-family: Big Shoulders Display;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2.1875rem;
+}
+p {
+  color: white;
+  font-family: Lexend Deca;
+  font-size: 0.9375rem;
+  font-weight: 400;
+}
+.learn-more-one {
+  margin-top: 5rem;
+  margin-left: 2.5rem;
+  padding: 0.625rem 2.1875rem;
+  font-size: 0.9375rem;
+  font-family: Lexend Deca;
+  color: hsl(31, 77%, 52%);
+  background-color: white;
+  border-radius: 1.5625rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.learn-more-two {
+  margin-top: 5rem;
+  margin-left: 2.5rem;
+  padding: 0.625rem 2.1875rem;
+  font-size: 0.9375rem;
+  font-family: Lexend Deca;
+  color: hsl(184, 100%, 22%);
+  background-color: white;
+  border-radius: 1.5625rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.learn-more-three {
+  margin-top: 5rem;
+  margin-left: 2.5rem;
+  padding: 0.625rem 2.1875rem;
+  font-size: 0.9375rem;
+  font-family: Lexend Deca;
+  color: hsl(179, 100%, 13%);
+  background-color: white;
+  border-radius: 1.5625rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.learn-more-one:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+.learn-more-two:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+.learn-more-three:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 40px;
+    padding: 20px;
+  }
+}
