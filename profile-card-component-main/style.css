@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(216, 78%, 30%);
+  background-image: url('images/bg-pattern-top.svg'),
+    url('images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main {
+  width: 21.25rem;
+  height: 23.125rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.625rem;
+}
+.card-background-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3.75rem;
+}
+.card-background-image {
+  width: 100%;
+  height: 8.125rem;
+  object-fit: cover;
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+.profile-image {
+  position: absolute;
+  top: 65%;
+  left: 37.5%;
+  width: 5.9375rem;
+  height: 5.9375rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0.3125rem solid hsl(0, 0%, 100%);
+}
+.card-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.card-info-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.25rem;
+}
+h1 {
+  font-family: Kumbh Sans;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-right: 0.4375rem;
+}
+.card-info-age {
+  font-family: Kumbh Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(228, 12%, 44%);
+}
+.card-info-location {
+  font-family: Kumbh Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(228, 12%, 44%);
+}
+.line {
+  width: 100%;
+  height: 0.0625rem;
+  background-color: hsl(228, 12%, 44%);
+  opacity: 0.1;
+  margin-bottom: 1.25rem;
+}
+.card-stats-container {
+  width: 15.625rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.75rem;
+}
+.card-stats-h {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3.75rem;
+  margin-right: 1.875rem;
+}
+h2 {
+  font-family: Kumbh Sans;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-left: 1.5625rem;
+}
+.p-social-stats {
+  font-family: Kumbh Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  color: hsl(228, 12%, 44%);
+  margin-left: 1.5rem;
+}
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
